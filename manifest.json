@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Volume Booster",
+  "version": "1.0",
+  "description": "Boost volume of video elements using Web Audio API",
+  "permissions": ["activeTab", "scripting", "tabs", "storage"],
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "assets/icon16.png"
+    }
+  },
+  "host_permissions": ["<all_urls>"]
+}
